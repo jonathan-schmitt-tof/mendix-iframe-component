@@ -6,7 +6,7 @@
   "copyright": "2021 Mendix AppServices",
   "author": "jelte.lagendijk@mendix.com",
   "config": {
-    "projectPath": "./tests/testProject/",
+    "projectPath": "../../",
     "mendixHost": "http://windows:8080",
     "developmentPort": "3000"
   },
@@ -22,14 +22,24 @@
   },
   "license": "Apache-2.0",
   "devDependencies": {
-    "@mendix/pluggable-widgets-tools": "^8.14.0",
+    "@mendix/pluggable-widgets-tools": "^10.24.0",
     "@types/big.js": "^4.0.5",
-    "@types/classnames": "^2.2.4",
-    "@types/react": "~16.9.0",
-    "@types/react-dom": "~16.9.0"
+    "@types/classnames": "^2.2.4"
   },
   "dependencies": {
     "classnames": "^2.2.6",
     "react-iframe": "^1.8.0"
+  },
+  "overrides": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.0"
+  },
+  "resolutions": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.0"
   }
 }
