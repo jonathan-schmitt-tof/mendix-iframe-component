@@ -1,7 +1,7 @@
 {
   "name": "iframecomponent",
   "widgetName": "IFrameComponent",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "IFrames done properly",
   "copyright": "2021 Mendix AppServices",
   "author": "jelte.lagendijk@mendix.com",
